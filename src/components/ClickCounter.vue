@@ -2,6 +2,9 @@
 import counter from "@/mixins/counter"
 
 export default {
+	data() {
+		return { count: 50 }
+	},
 	mixins: [counter],
 }
 
